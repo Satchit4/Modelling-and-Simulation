@@ -1,0 +1,12 @@
+The plug flow reactor model
+(PFR, sometimes called continuous tubular reactor, CTR, or piston flow reactors) is a model used to describe chemical reactions
+in continuous, flowing systems of cylindrical geometry. The PFR model is used to predict the behavior of chemical reactors of such design,
+so that key reactor variables, such as the dimensions of the reactor, can be estimated.
+
+Fluid going through a PFR may be modeled as flowing through the reactor as a series of infinitely thin coherent "plugs",
+each with a uniform composition, traveling in the axial direction of the reactor, with each plug having a different composition from
+the ones before and after it. The key assumption is that as a plug flows through a PFR, the fluid is perfectly mixed in the radial
+direction but not in the axial direction (forwards or backwards). Each plug of differential volume is considered as a separate entity,
+effectively an infinitesimally small continuous stirred tank reactor, limiting to zero volume. As it flows down the tubular PFR,
+the residence time ( tau ) of the plug is a function of its position in the reactor. In the ideal PFR,
+the residence time distribution is therefore a Dirac delta function with a value equal to tau .
